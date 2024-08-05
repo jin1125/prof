@@ -4,7 +4,7 @@
     $: currentPath = $page.url.pathname;
 </script>
 
-<header class="py-8 text-center sm:text-right">
+<header class="mb-16 sm:mb-6 text-center sm:text-right">
     <nav class="leading-10 space-x-6 sm:space-x-12">
         <a
             class="

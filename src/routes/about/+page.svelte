@@ -8,7 +8,7 @@
   <title>About - Jin's Profile</title>
 </svelte:head>
 
-<div class="flex flex-col items-center mt-6 sm:mt-24 space-y-16">
+<div class="flex flex-col items-center sm:mt-24 space-y-16">
   {#if data.about && data.about.length > 0}
     <img
       class="rounded-full w-72"
