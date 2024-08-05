@@ -1,10 +1,10 @@
 <script lang="ts">
-    import Header from '$lib/Header.svelte';
-    import "../app.css";
+  import Header from "$lib/Header.svelte";
+  import "../app.css";
 </script>
 
 <Header />
 
 <main>
-    <slot />
+  <slot />
 </main>
