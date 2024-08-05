@@ -9,6 +9,11 @@ export interface About {
   hobby: string;
 }
 
+export interface Career {
+  summary: string;
+  detail: string;
+}
+
 export const newtClient = createClient({
   spaceUid: NEWT_SPACE_UID,
   token: NEWT_CDN_API_TOKEN,

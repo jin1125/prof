@@ -5,6 +5,6 @@
 
 <Header />
 
-<main>
+<main class="sm:mx-20">
   <slot />
 </main>
