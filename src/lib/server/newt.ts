@@ -4,6 +4,7 @@ import { createClient } from "newt-client-js";
 
 export interface About {
   image: Image;
+  name: string;
   address: string;
   birth: string;
   hobby: string;

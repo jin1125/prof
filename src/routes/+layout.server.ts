@@ -7,7 +7,7 @@ export const load: LayoutServerLoad = async () => {
     appUid: "prof",
     modelUid: "about",
     query: {
-      select: ["image", "address", "birth", "hobby"],
+      select: ["name", "image", "address", "birth", "hobby"],
     },
   });
 
