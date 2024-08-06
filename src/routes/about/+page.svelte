@@ -9,13 +9,18 @@
   <meta name="description" content="Jin's ProfileのAboutページです。" />
 </svelte:head>
 
-<div class="flex flex-col items-center sm:mt-24 space-y-16">
+<div class="flex flex-col items-center sm:mt-24 space-y-12">
   {#if data.about && data.about.length > 0}
-    <img
-      class="rounded-full w-72"
-      src={data.about[0]?.image?.src}
-      alt="プロフィール画像"
-    />
+    <div class="space-y-8 text-center">
+      <img
+        class="rounded-full w-72"
+        src={data.about[0]?.image?.src}
+        alt="プロフィール画像"
+      />
+      <h2 class="text-2xl">
+        {data.about[0]?.name}
+      </h2>
+    </div>
     <div class="space-y-6">
       <p>
         居住地 / {data.about[0]?.address}
