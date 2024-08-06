@@ -14,6 +14,11 @@ export interface Career {
   detail: string;
 }
 
+export interface Work {
+  title: string;
+  pglang: string;
+}
+
 export const newtClient = createClient({
   spaceUid: NEWT_SPACE_UID,
   token: NEWT_CDN_API_TOKEN,
