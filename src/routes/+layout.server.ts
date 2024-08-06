@@ -1,4 +1,4 @@
-import type { About, Career } from "$lib/server/newt";
+import type { About, Career, Work } from "$lib/server/newt";
 import { newtClient } from "$lib/server/newt";
 import type { LayoutServerLoad } from "./$types";
 
@@ -10,6 +10,7 @@ export const load: LayoutServerLoad = async () => {
       select: ["image", "address", "birth", "hobby"],
     },
   });
+
   const { items: career } = await newtClient.getContents<Career>({
     appUid: "prof",
     modelUid: "career",
@@ -17,5 +18,14 @@ export const load: LayoutServerLoad = async () => {
       select: ["summary", "detail"],
     },
   });
-  return { about, career };
+
+  const { items: work } = await newtClient.getContents<Work>({
+    appUid: "prof",
+    modelUid: "work",
+    query: {
+      select: ["title", "pglang"],
+    },
+  });
+
+  return { about, career, work };
 };
