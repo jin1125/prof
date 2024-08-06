@@ -6,6 +6,7 @@
 
 <svelte:head>
   <title>Career - Jin's Profile</title>
+  <meta name="description" content="Jin's ProfileのCareerページです。" />
 </svelte:head>
 
 <div class="sm:my-20 text-center">
