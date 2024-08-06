@@ -6,6 +6,7 @@
 
 <svelte:head>
   <title>About - Jin's Profile</title>
+  <meta name="description" content="Jin's ProfileのAboutページです。" />
 </svelte:head>
 
 <div class="flex flex-col items-center sm:mt-24 space-y-16">
