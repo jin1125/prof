@@ -1,7 +1,7 @@
 # Jin's Profile
 
 ## URL
-https://www.shogojinta.com
+[https://www.shogojinta.com](https://www.shogojinta.com)
 
 ## 技術スタック
 - Typescript
