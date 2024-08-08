@@ -3,12 +3,15 @@
 ## URL
 [https://www.shogojinta.com](https://www.shogojinta.com)
 
-## 技術スタック
+## 使用技術
 - Typescript
 - Svelte
 - SvelteKit
 - Newt
 - Vercel
+- CodeRabbit
+- Google Tag Manager
+- Google Analytics
 
 ## 環境構築
 1. .env.exampleファイルをコピーして.envファイルを作成
