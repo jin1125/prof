@@ -18,6 +18,7 @@ export interface Career {
 export interface Work {
   title: string;
   pglang: string;
+  url: string;
 }
 
 export const newtClient = createClient({
