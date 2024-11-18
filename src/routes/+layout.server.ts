@@ -23,7 +23,7 @@ export const load: LayoutServerLoad = async () => {
     appUid: "prof",
     modelUid: "work",
     query: {
-      select: ["title", "pglang", "url"],
+      select: ["title", "url", "pglang"],
     },
   });
 
